@@ -9,15 +9,15 @@
 
 #include "pex03funcs.h"
 
-void clearGameBoard(char board[8][8]) {
+void clearGameBoard(char board[6][6]) {
 
 }
 
-void computerTakeTurn(char board[8][8]) {
+void computerTakeTurn(char board[6][6]) {
 
 }
 
-void displayGameBoard(char board[8][8]) {
+void displayGameBoard(char board[6][6]) {
 
 }
 
@@ -29,18 +29,18 @@ int getIntSafe() {
     return 0;
 }
 
-bool legalPlay(char board[8][8], int column) {
+bool legalPlay(char board[6][6], int column) {
     return false;
 }
 
-void placePiece(char board[8][8], char piece, int column) {
+void placePiece(char board[6][6], char piece, int column) {
 
 }
 
-void userTakeTurn(char board[8][8]) {
+void userTakeTurn(char board[6][6]) {
 
 }
 
-int getWinner(char board[8][8]) {
+int getWinner(char board[6][6]) {
     return 0;
 }
